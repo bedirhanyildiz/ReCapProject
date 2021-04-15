@@ -70,7 +70,7 @@ namespace ConsoleUI
         private protected static void AddUserTest()
         {
             UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(new User { FirstName = "Furkan", LastName = "Paşaoğlu", Email = "email@email.com" });
+            userManager.Add(new User { FirstName = "Bedirhan", LastName = "Yıldız", Email = "email@email.com" });
         }
 
         private protected static void CarDtoTest()
